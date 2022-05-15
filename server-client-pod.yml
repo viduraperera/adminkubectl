@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: server-client-pod
+  labels:
+    name: server-client-pod
+    app: demo-server-admin-pod
+
+spec:
+  containers:
+    - name: shop-client-pod
+      image: adsg3160/client-server
+      ports:
+        - containerPort: 80
