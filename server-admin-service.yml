@@ -12,5 +12,5 @@ spec:
     - port: 80
       targetPort: 80
   selector:
-    name: mongo-pod
-    app: demo-server-admin-pod
+      name: mongo-pod
+      app: demo-server-admin-pod
