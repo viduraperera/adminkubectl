@@ -9,6 +9,6 @@ metadata:
 spec:
   containers:
     - name: shop-admin-pod
-      image: vup97/shop-admin:leatest
+      image: vup97/shop-admin
       ports:
         - containerPort: 5000
